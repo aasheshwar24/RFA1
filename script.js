@@ -11,7 +11,7 @@ hamburger.addEventListener('click', () => {
 // Close the menu when a navigation item is clicked (for small screens)
 navItems.forEach(item => {
     item.addEventListener('click', () => {
-        if (window.innerWidth <= 768) { // Only close the menu on small screens
+        if (window.innerWidth <= 700) { // Only close the menu on small screens
             navLinks.classList.remove('active');
         }
     });
