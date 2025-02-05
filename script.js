@@ -3,17 +3,14 @@ const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 const navItems = document.querySelectorAll('.nav-links a'); // Get all navigation items
 
-// Toggle the menu on hamburger click
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
 });
 
-// Close the menu when a navigation item is clicked (for small screens)
+// Close menu when a link is clicked
 navItems.forEach(item => {
     item.addEventListener('click', () => {
-        if (window.innerWidth <= 900) { // Only close the menu on small screens
-            navLinks.classList.remove('active');
-        }
+        navLinks.classList.remove('active'); // Hide the menu
     });
 });
 
