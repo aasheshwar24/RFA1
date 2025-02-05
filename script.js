@@ -55,3 +55,5 @@ document.querySelectorAll('.service-card').forEach(card => {
         card.style.boxShadow = "0px 4px 12px rgba(255, 255, 255, 0.1)";
     });
 });
+
+<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
