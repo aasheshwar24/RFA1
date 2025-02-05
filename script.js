@@ -56,4 +56,3 @@ document.querySelectorAll('.service-card').forEach(card => {
     });
 });
 
-<script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
